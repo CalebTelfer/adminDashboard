@@ -36,9 +36,41 @@ body {
 }
 
 .sidebar {
+    display: grid;
+    grid-template-rows: 1rem 2rem 2rem 12rem 2rem 6rem;
     background-color: #1892d3;
     grid-column: 1 / 2;
     grid-row: 1 / 6;
+}
+
+.sidebar>div {
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    grid-row: 2;
+    height: 1rem;
+}
+
+
+.sidebar ul {
+    display: grid;
+    margin-left: 1rem;
+    grid-auto-rows: 2rem;
+}
+
+.sidebar ul>li {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.first-sidebar-ul {
+    grid-row: 4;
+}
+
+.second-sidebar-ul {
+    grid-row: 6;
 }
 
 .content {
