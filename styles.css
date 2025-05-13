@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .gridcontainer {
     display: grid;
     height: 100vh;
