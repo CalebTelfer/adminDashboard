@@ -189,6 +189,9 @@ body {
     margin-top: 1rem;
 }
 
-.content>h4 {
+.contentHeaders {
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
     margin: .5rem;
 }
